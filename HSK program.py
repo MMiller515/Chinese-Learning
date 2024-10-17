@@ -852,6 +852,17 @@ hsk1_button.pack(pady=5)
 hsk2_button = tk.Button(start_frame, text="HSK2 Bank", font=("Helvetica", 16), command=lambda: start_game(hsk_bank2))
 hsk2_button.pack(pady=5)
 
+hsk3_button = tk.Button(start_frame, text="HSK3 Bank", font=("Helvetica", 16), command=lambda: start_game(hsk_bank3))
+hsk3_button.pack(pady=5)
+
+hsk4_button = tk.Button(start_frame, text="HSK4 Bank", font=("Helvetica", 16), command=lambda: start_game(hsk_bank4))
+hsk4_button.pack(pady=5)
+
+hsk5_button = tk.Button(start_frame, text="HSK5 Bank", font=("Helvetica", 16), command=lambda: start_game(hsk_bank5))
+hsk5_button.pack(pady=5)
+
+hsk6_button = tk.Button(start_frame, text="HSK6 Bank", font=("Helvetica", 16), command=lambda: start_game(hsk_bank6))
+hsk6_button.pack(pady=5)
 # Add more buttons for other banks as needed...
 
 settings_frame = tk.Frame(root)
